@@ -56,6 +56,8 @@
   "onOptionChange": "{{i18n.selectLanguage();}}",
   "optionLabel": "name",
   "optionValue": "code",
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
   "parentColumnSpace": 20.5625,
   "parentId": "0",
   "parentRowSpace": 10,

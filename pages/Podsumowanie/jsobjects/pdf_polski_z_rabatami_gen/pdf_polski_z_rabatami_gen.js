@@ -3,6 +3,7 @@ async BuildPDF () {
 const doc = jspdf.jsPDF();
 const data2 = glowna_tabela.tableData;
 const Roboto = Input1.text;
+const autotable = Input8.text;
 
 //const data = tabela_glowna.tableData;
 //const waluta = netto+walutaskrot.text;	
@@ -101,7 +102,7 @@ doc.addFont("RobotoCondensed-Regular.ttf", "Roboto", "normal");
 	
 	
 // Add a table with auto columns
-default_1(doc, {
+default_3(doc, {
 	theme: 'grid',
 	headStyles: { fillColor:  [247, 247, 247] ,
            // lineColor: 'black',

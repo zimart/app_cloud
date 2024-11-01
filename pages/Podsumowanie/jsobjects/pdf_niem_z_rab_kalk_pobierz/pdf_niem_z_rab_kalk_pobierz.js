@@ -155,7 +155,7 @@ const finalY1 = doc.lastAutoTable.finalY; // The y position where the table ends
 	
 	
 // Add a table with auto columns
-default_3 (doc, {
+default_1 (doc, {
 	theme: 'grid',
 	headStyles: { fillColor:  [247, 247, 247] ,
            // lineColor: 'black',
